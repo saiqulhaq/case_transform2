@@ -26,6 +26,7 @@ Gem::Specification.new do |s|
 
   s.test_files = s.files.grep(%r{^(test|spec|features)/})
 
+  s.add_development_dependency 'bundle-audit'
   s.add_development_dependency 'bundler', '>= 2.2.30'
   s.add_development_dependency 'guard'
   s.add_development_dependency 'guard-rspec'
@@ -34,5 +35,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'rspec', '~> 3.7.0'
   s.add_development_dependency 'rubocop', '~> 1.22'
   s.add_development_dependency 'rubocop-rspec'
-  s.add_development_dependency 'simplecov', '~> 0.16.1'
+  s.add_development_dependency 'simplecov', '~> 0.17.1'
 end
