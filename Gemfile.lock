@@ -7,7 +7,6 @@ GEM
   remote: https://rubygems.org/
   specs:
     ast (2.4.2)
-    brakeman (5.1.2)
     bundle-audit (0.1.0)
       bundler-audit
     bundler-audit (0.9.0.1)
@@ -95,7 +94,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  brakeman
   bundle-audit
   bundler (>= 2.2.30)
   case_transform2!

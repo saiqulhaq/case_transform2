@@ -20,7 +20,3 @@ jobs:
       - name: Run security checks
         run: |
           bin/bundler-audit --update
-          bin/brakeman -q -w2
-      - name: Run linters
-        run: |
-          bin/rubocop --parallel
