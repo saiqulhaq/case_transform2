@@ -25,4 +25,6 @@ jobs:
         COVERAGE: 1
       with:
         coverageCommand: bundle exec rspec
-        coverageLocations: coverage/index.html:simplecov
+        debug: true
+        coverageLocations: | 
+           ${{github.workspace}}/coverage/index.html:simplecov
