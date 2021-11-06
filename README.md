@@ -12,9 +12,10 @@
 
 # case_transform2
 
-![Test Workflow](https://github.com/saiqulhaq/case_transform/actions/workflows/github-actions.yml/badge.svg)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/0050890b14e7f9165680/test_coverage)](https://codeclimate.com/github/saiqulhaq/case_transform/test_coverage)
 [![Maintainability](https://api.codeclimate.com/v1/badges/0050890b14e7f9165680/maintainability)](https://codeclimate.com/github/saiqulhaq/case_transform/maintainability)
+[![Audit](https://github.com/saiqulhaq/case_transform/actions/workflows/audit.yml/badge.svg)](https://github.com/saiqulhaq/case_transform/actions/workflows/audit.yml)
+[![Test](https://github.com/saiqulhaq/case_transform/actions/workflows/test.yml/badge.svg)](https://github.com/saiqulhaq/case_transform/actions/workflows/test.yml)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/0050890b14e7f9165680/test_coverage)](https://codeclimate.com/github/saiqulhaq/case_transform/test_coverage)
 
 
 Transforms string letter case to camel, snake, dash and underscore without activesupport dependencies.  

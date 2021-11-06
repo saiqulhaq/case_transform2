@@ -28,5 +28,5 @@ jobs:
       run: bundle exec rspec
     - name: CodeClimate Post-build upload
       env:
-        CC_TEST_REPORTER_ID: 945dfb58a832d233a3caeb84e3e6d3be212e8c7abcb48117fce63b9adcb43647
+        CC_TEST_REPORTER_ID: 7eaf794e2ffbbd1bbe4eccd967a5428a6318cad2a33b8fd0baf42d6335a334a0
       run: ./cc-test-reporter -d -t simplecov after-build
