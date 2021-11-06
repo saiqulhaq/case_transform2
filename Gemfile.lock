@@ -94,16 +94,16 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundle-audit
+  bundle-audit (~> 0.1.0)
   bundler (>= 2.2.30)
   case_transform2!
-  guard
-  guard-rspec
-  pry
-  rake
+  guard (~> 2.18.0)
+  guard-rspec (~> 4.7.3)
+  pry (~> 0.14.1)
+  rake (>= 13.0.6)
   rspec (~> 3.7.0)
   rubocop (~> 1.22)
-  rubocop-rspec
+  rubocop-rspec (~> 2.5.0)
   simplecov (~> 0.17.1)
 
 BUNDLED WITH
